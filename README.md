@@ -9,7 +9,8 @@
        ```$ sudo apt install firewalld```
 
 
-Open ports:
+    + Open ports:
 
-sudo firewall-cmd --zone public --permanent --add-port 5000-5010/tcp
-sudo firewall-cmd --reload
+      ```$ sudo firewall-cmd --zone public --permanent --add-port 5000-5010/tcp```
+      
+      ```$ sudo firewall-cmd --reload```
