@@ -1,0 +1,27 @@
+services:
+  app-yolo-live:
+    image: ghcr.io/amperecomputingai/ampere-ai-ref-apps:yolov8-industrial-0.0.1
+    ipc: host
+    privileged: true
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    environment:
+      CONFIG_FILE: ${CONFIG_FILE:-cfg/config.yaml}
+      GRADIO_SERVER_NAME: ${GRADIO_SERVER_NAME:-0.0.0.0}
+      GRADIO_SERVER_PORT: ${GRADIO_SERVER_PORT:-5002}
+      HOST_PORT: ${HOST_PORT:-5002}
+      INSTANCE_NAME: ${INSTANCE_NAME:-'AltraMax'}
+      NSTREAMS: ${NSTREAMS:-2}
+      NTHREADS: ${NTHREADS:-16}
+      VIDEO_SRC: ${VIDEO_SRC:-''}
+      WEBCAM0_SRC: ${WEBCAM0_SRC:-0}
+      WEBCAM1_SRC: ${WEBCAM1_SRC:-2}
+    ports:
+      - "${HOST_PORT}:${GRADIO_SERVER_PORT:-5002}"
+    deploy:
+      resources:
+        limits:
+          cpus: "32"
+        reservations:
+          cpus: "32"
+    cpuset: "64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95"    
