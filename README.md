@@ -1,11 +1,10 @@
 # View-Ampere-AI-Demo
 ## Managing and Running Demo
 
-Enable firewall for public access
-Install firewall application:
-
-sudo apt update
-sudo apt install firewalld
+* Enable firewall for public access
+    + Install firewall application:
+       ```$ sudo apt update
+          $ sudo apt install firewalld```
 
 
 Open ports:
