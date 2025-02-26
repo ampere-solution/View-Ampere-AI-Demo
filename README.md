@@ -46,3 +46,11 @@
 
      ```$ groups```
   
+### Launching the demo web application service
+* Clone demo repo:
+  ```$ git clone https://github.com/AmpereComputingAI/ampere-ai-ref-apps.git```
+
+* Start the demo:
+  ```./start-yolo-cpu-gcp.sh```
+
+* Open the browser and go to the http://<ip-address>:5002
