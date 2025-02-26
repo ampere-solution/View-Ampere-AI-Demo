@@ -39,10 +39,10 @@
 
 * Add user to the docker group:
 
-```$ sudo usermod -aG docker $USER```
+  ```$ sudo usermod -aG docker $USER```
 
    + Logout and login back to the machine
    + Check docker is added to your groups:
 
-   ```$ groups```
+     ```$ groups```
   
