@@ -3,6 +3,7 @@
 
 * Enable firewall for public access
     + Install firewall application:
+      
        ```$ sudo apt update```
       
        ```$ sudo apt install firewalld```
