@@ -77,9 +77,6 @@
 * Check to see if default network is running:
   ```
   $ virsh net-list --all
- Name      State    Autostart   Persistent
---------------------------------------------
- default   active   yes         yes
 
 
 * Create ARM-based VM:
