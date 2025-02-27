@@ -48,8 +48,12 @@
   ```$ git clone https://github.com/ampere-solution/View-Ampere-AI-Demo.git```
 
 * Start the demo:
-  ```./start-yolo-cpu-gcp.sh```
+  ```./start-yolo-cpu.sh```
 
 * Open the browser and go to the http://<ip-address>:5002
 * Demo UI
   ![Industrial-YOLOv8](industrial-yolov8.png)
+
+## Manage and Deploy View AI Demo
+
+  
