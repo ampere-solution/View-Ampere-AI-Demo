@@ -74,6 +74,14 @@
   ```$ newgrp libvirt```
 
 * Download an ARM64 Ubuntu 24.04 ISO Image
+* Check to see if default network is running:
+  ```
+  $ virsh net-list --all
+ Name      State    Autostart   Persistent
+--------------------------------------------
+ default   active   yes         yes
+
+
 * Create ARM-based VM:
 
   ```
