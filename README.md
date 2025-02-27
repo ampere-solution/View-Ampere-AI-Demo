@@ -74,7 +74,7 @@
 
   ```$ newgrp libvirt```
 
-* Download an ARM64 Ubuntu 24.04 ISO Image
+* Download an ARM64 Ubuntu 24.04 ISO Image and place the ISO in the /var/lib/libvirt/images/ for later use to spin up VM.
 * Check to see if default network is running:
   ```
   $ virsh net-list --all
@@ -91,6 +91,8 @@
     --machine virt \
     --network network=default \
     --graphics vnc
+
+Note: allocate Vm with 48 cpus, 64G memory, 100G storage.
 
 * Check to see if VM is running: ```virsh list --all```
 * Access to VM: ```virsh console view-demo```
