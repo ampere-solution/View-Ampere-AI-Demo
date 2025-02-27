@@ -52,6 +52,7 @@
 
 * Open the browser and go to the http://<ip-address>:5002
 * Demo UI
+  
   ![Industrial-YOLOv8](industrial-yolov8.png)
 
 ## Manage and Deploy View AI Demo
@@ -98,4 +99,5 @@
 * Open the terminal and run the curl command at command prompt:  ```$curl -s https://get.view.io | bash -s YOUR_GUID```
 * Access View from the VM IP address on port 9000.
 * View UI
+  
  ![View](view.png) 
