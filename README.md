@@ -88,3 +88,5 @@
     --network network=default \
     --graphics vnc
 ```
+* Check to see if VM is running: ```virsh list --all```
+* Access to VM: ```virsh console view-demo```
