@@ -76,7 +76,8 @@
 * Download an ARM64 Ubuntu 24.04 ISO Image
 * Create ARM-based VM:
 
-  ```virt-install --name view-demo \
+  ```
+  virt-install --name view-demo \
     --ram 65536 \
     --vcpus 48 \
     --disk path=/var/lib/libvirt/images/view-demo.qcow2,size=100 \
