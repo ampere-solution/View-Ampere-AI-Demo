@@ -103,3 +103,5 @@ Note: allocate VM with 48 cpus, 64G memory, 100G storage.
 * View UI
   
  ![View](view.png) 
+
+ * You then can create different knowledge bases depends on audience/customers interests. 
