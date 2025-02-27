@@ -78,7 +78,6 @@
   ```
   $ virsh net-list --all
 
-
 * Create ARM-based VM:
 
   ```
