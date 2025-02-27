@@ -36,12 +36,12 @@
 + Make sure docker is installed properly:
      ```$ sudo docker run hello-world```
 
-* Add user to the docker group:
++ Add user to the docker group:
   ```$ sudo usermod -aG docker $USER```
 
-   + Logout and login back to the machine
-   + Check docker is added to your groups:
-     ```$ groups```
+ + Logout and login back to the machine
+ + Check docker is added to your groups:
+   ```$ groups```
   
 ### Launching the demo web application service
 * Clone demo repo:
