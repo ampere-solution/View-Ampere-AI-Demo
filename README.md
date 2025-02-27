@@ -86,8 +86,7 @@
     --arch aarch64 \
     --machine virt \
     --network network=default \
-    --graphics vnc
-```
+    --graphics vnc```
 
 
 
