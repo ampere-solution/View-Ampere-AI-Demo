@@ -95,8 +95,7 @@
 * Access to VM: ```virsh console view-demo```
 
 ### Deploy View AI Demo in VM
-* Open the terminal and run the curl command at command prompt:  ```$
-* curl -s https://get.view.io | bash -s YOUR_GUID```
+* Open the terminal and run the curl command at command prompt:  ```$curl -s https://get.view.io | bash -s YOUR_GUID```
 * Access View from the VM IP address on port 9000.
 * View UI
  ![View](view.png) 
