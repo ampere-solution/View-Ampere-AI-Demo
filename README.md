@@ -77,7 +77,6 @@
 * Check to see if default network is running:
   ```
   $ virsh net-list --all
-
 * Create ARM-based VM:
 
   ```
