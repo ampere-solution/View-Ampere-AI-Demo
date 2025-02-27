@@ -1,5 +1,5 @@
 # View-Ampere-AI-Demo
-## Managing and Running Demo
+## Manage and Deploy Industrial YOLOv8 Demo
 
 * Enable firewall for public access
     + Install firewall application:
