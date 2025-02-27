@@ -92,7 +92,7 @@
     --network network=default \
     --graphics vnc
 
-Note: allocate Vm with 48 cpus, 64G memory, 100G storage.
+Note: allocate VM with 48 cpus, 64G memory, 100G storage.
 
 * Check to see if VM is running: ```virsh list --all```
 * Access to VM: ```virsh console view-demo```
