@@ -33,15 +33,14 @@
 
   ```$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
 
-   + Make sure docker is installed properly: ```$ sudo docker run hello-world```
+   + Make sure docker is installed properly:
+     ```$ sudo docker run hello-world```
 
 * Add user to the docker group:
-
   ```$ sudo usermod -aG docker $USER```
 
    + Logout and login back to the machine
    + Check docker is added to your groups:
-
      ```$ groups```
   
 ### Launching the demo web application service
