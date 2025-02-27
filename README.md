@@ -45,7 +45,7 @@
   
 ### Launching the demo web application service
 * Clone demo repo:
-  ```$ git clone https://github.com/AmpereComputingAI/ampere-ai-ref-apps.git```
+  ```$ git clone https://github.com/ampere-solution/View-Ampere-AI-Demo.git```
 
 * Start the demo:
   ```./start-yolo-cpu-gcp.sh```
