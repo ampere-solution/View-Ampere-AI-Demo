@@ -68,7 +68,22 @@
   ```$ sudo systemctl status libvirtd```
 
 * Add to the libvirt group:
+  
   ```$ sudo usermod -aG libvirt $(whoami)```
 
   ```$ newgrp libvirt```
-  
+
+* Download an ARM64 Ubuntu 24.04 ISO Image
+* Create ARM-based VM:
+
+  ```virt-install --name view-demo \
+    --ram 65536 \
+    --vcpus 48 \
+    --disk path=/var/lib/libvirt/images/view-demo.qcow2,size=100 \
+    --os-variant ubuntu24.04 \
+    --cdrom /var/lib/libvirt/images/ubuntu-24.04.2-live-server-arm64.iso \
+    --arch aarch64 \
+    --machine virt \
+    --network network=default \
+    --graphics vnc
+```
