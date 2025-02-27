@@ -51,3 +51,5 @@
   ```./start-yolo-cpu-gcp.sh```
 
 * Open the browser and go to the http://<ip-address>:5002
+* Demo UI
+  ![Industrial-YOLOv8](industrial-yolov8.png)
