@@ -55,5 +55,20 @@
   ![Industrial-YOLOv8](industrial-yolov8.png)
 
 ## Manage and Deploy View AI Demo
+### Create VM 
+* Install QEMU,KVM and required tools
+  ```$ sudo apt update```
 
+  ```$ sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager -y```
+
+* Start and enable libvirt Service:
+  ```$ sudo systemctl enable --now libvirtd```
+
+* Verify that the service is running:
+  ```$ sudo systemctl status libvirtd```
+
+* Add to the libvirt group:
+  ```$ sudo usermod -aG libvirt $(whoami)```
+
+  ```$ newgrp libvirt```
   
