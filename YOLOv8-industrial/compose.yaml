@@ -1,6 +1,7 @@
 services:
   app-yolo-live:
-    image: ghcr.io/amperecomputingai/ampere-ai-ref-apps:yolov8-industrial-0.0.1
+    #image: ghcr.io/amperecomputingai/ampere-ai-ref-apps:yolov8-industrial-0.0.1
+    image: ghcr.io/amperecomputingai/ampere-ai-ref-apps:yolov8-industrial-0.0.2
     ipc: host
     privileged: true
     volumes:
